@@ -23,15 +23,15 @@ const addComment = () => {
   inputEle.value = "";
 };
 
-const handleLike = (event) => {
-  likesCount += 1;
-  likeBtnEle.textContent = `${likesCount} like(s). Like this post!`;
-};
+// const handleLike = (event) => {
+//   likesCount += 1;
+//   likeBtnEle.textContent = `${likesCount} like(s). Like this post!`;
+// };
 
-const handleDislike = () => {
-  dislikesCount += 1;
-  dislikeBtnEle.textContent = `${dislikesCount} dislike(s). Dislike this post!`;
-};
+// const handleDislike = () => {
+//   dislikesCount += 1;
+//   dislikeBtnEle.textContent = `${dislikesCount} dislike(s). Dislike this post!`;
+// };
 
 const handleReaction = (event) => {
   if (event.target.id === "like-button") {
